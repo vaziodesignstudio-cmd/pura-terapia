@@ -1,6 +1,6 @@
 # Pura Terapia® — Agent System (Consolidated)
-> Source of truth: GitHub repo. Este arquivo é gerado automaticamente pelo script `sync-agents.sh`.
-> Última atualização: 28/04/2026
+> Source of truth: GitHub repo. Este arquivo é gerado automaticamente por `sync-agents.sh`.
+> Última atualização: 28/04/2026 09:50
 
 ---
 
@@ -51,7 +51,7 @@ Todos os agents referenciam esse arquivo.
 
 ---
 
-<!-- ========== 01-social-media-strategist.md ========== -->
+<!-- ========== layer-1-strategy/01-social-media-strategist.md ========== -->
 
 ---
 name: Social Media Strategist — Pura Terapia®
@@ -159,7 +159,7 @@ Simplificar o acesso à saúde regulada no Brasil, conectando pessoas a especial
 
 ---
 
-<!-- ========== 02-trend-researcher.md ========== -->
+<!-- ========== layer-1-strategy/02-trend-researcher.md ========== -->
 
 ---
 name: Trend Researcher — Pura Terapia®
@@ -241,7 +241,7 @@ Acolhedor, claro, confiável, empático. **Nunca alarmista.** A marca fala como 
 
 ---
 
-<!-- ========== 03-brand-guardian.md ========== -->
+<!-- ========== layer-1-strategy/03-brand-guardian.md ========== -->
 
 ---
 name: Brand Guardian — Pura Terapia®
@@ -357,7 +357,7 @@ Para cada entregável recebido, verificar:
 
 ---
 
-<!-- ========== 04-sprint-prioritizer.md ========== -->
+<!-- ========== layer-1-strategy/04-sprint-prioritizer.md ========== -->
 
 ---
 name: Sprint Prioritizer — Pura Terapia®
@@ -453,7 +453,7 @@ Usar matriz de impacto × urgência:
 
 ---
 
-<!-- ========== 05-agents-orchestrator.md ========== -->
+<!-- ========== layer-1-strategy/05-agents-orchestrator.md ========== -->
 
 ---
 name: Agents Orchestrator — Pura Terapia®
@@ -599,7 +599,7 @@ EDUCA · ACOLHE · COMPROVA · INSPIRA · CONVERTE
 
 ---
 
-<!-- ========== 06-content-creator.md ========== -->
+<!-- ========== layer-2-production/06-content-creator.md ========== -->
 
 ---
 name: Content Creator — Pura Terapia®
@@ -738,7 +738,7 @@ A marca fala como **uma amiga especialista**: sabe muito, mas explica de forma s
 
 ---
 
-<!-- ========== 07-visual-storyteller.md ========== -->
+<!-- ========== layer-2-production/07-visual-storyteller.md ========== -->
 
 ---
 name: Visual Storyteller — Pura Terapia®
@@ -857,7 +857,7 @@ Forma arredondada = acolhimento, cuidado, proximidade. A composição remete a u
 
 ---
 
-<!-- ========== 08-image-prompt-engineer.md ========== -->
+<!-- ========== layer-2-production/08-image-prompt-engineer.md ========== -->
 
 ---
 name: Image Prompt Engineer — Pura Terapia®
@@ -985,7 +985,7 @@ blurry, low quality, distorted anatomy
 
 ---
 
-<!-- ========== 09-whimsy-injector.md ========== -->
+<!-- ========== layer-2-production/09-whimsy-injector.md ========== -->
 
 ---
 name: Whimsy Injector — Pura Terapia®
@@ -1092,7 +1092,7 @@ Nas headlines de maior impacto, o ponto final não é só gramática — é paus
 
 ---
 
-<!-- ========== 10-carousel-growth-engine.md ========== -->
+<!-- ========== layer-2-production/10-carousel-growth-engine.md ========== -->
 
 ---
 name: Carousel Growth Engine — Pura Terapia®
@@ -1220,7 +1220,7 @@ Carrossel que começa com uma pergunta direta sobre como a pessoa está se senti
 
 ---
 
-<!-- ========== 11-compliance-reviewer.md ========== -->
+<!-- ========== layer-2-production/11-compliance-reviewer.md ========== -->
 
 ---
 name: Compliance Reviewer — Pura Terapia®
@@ -1328,7 +1328,7 @@ A Pura Terapia® não anuncia cannabis — anuncia **acesso facilitado a médico
 
 ---
 
-<!-- ========== 12-instagram-curator.md ========== -->
+<!-- ========== layer-3-distribution/12-instagram-curator.md ========== -->
 
 ---
 name: Instagram Curator — Pura Terapia®
@@ -1463,7 +1463,7 @@ Plataforma de telemedicina de cannabis medicinal. Fala como uma amiga especialis
 
 ---
 
-<!-- ========== 13-tiktok-strategist.md ========== -->
+<!-- ========== layer-3-distribution/13-tiktok-strategist.md ========== -->
 
 ---
 name: TikTok Strategist — Pura Terapia®
@@ -1567,7 +1567,7 @@ Usar as mesmas hashtags do feed + `#reels #reelsinstagram`
 
 ---
 
-<!-- ========== 14-seo-specialist.md ========== -->
+<!-- ========== layer-3-distribution/14-seo-specialist.md ========== -->
 
 ---
 name: SEO Specialist — Pura Terapia®
@@ -1628,7 +1628,7 @@ O tema ainda é relativamente novo para a busca orgânica no Brasil — há espa
 
 ---
 
-<!-- ========== 15-support-responder.md ========== -->
+<!-- ========== layer-3-distribution/15-support-responder.md ========== -->
 
 ---
 name: Support Responder — Pura Terapia®
@@ -1711,7 +1711,7 @@ Se alguém perguntar sobre dosagem, protocolo, interação com outro medicamento
 
 ---
 
-<!-- ========== 16-analytics-reporter.md ========== -->
+<!-- ========== layer-4-analytics/16-analytics-reporter.md ========== -->
 
 ---
 name: Analytics Reporter — Pura Terapia®
@@ -1829,7 +1829,7 @@ Alcance → Engajamento → Salvamentos → Cliques no link → Consulta agendad
 
 ---
 
-<!-- ========== 17-analise-layer.md ========== -->
+<!-- ========== layer-4-analytics/17-analise-layer.md ========== -->
 
 ---
 name: Feedback Synthesizer — Pura Terapia®
