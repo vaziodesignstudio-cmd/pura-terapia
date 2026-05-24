@@ -111,3 +111,45 @@ Alcance → Engajamento → Salvamentos → Cliques no link → Consulta agendad
 - Dashboard semanal (interno)
 - Relatório mensal formatado (cliente)
 - Análise pontual quando solicitado (ex: "por que esse post não performou?")
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Separar alcance de visualizações
+Insights do Instagram entrega "visualizações" (que inclui repetições) e "contas alcançadas" (únicas). No M1 foram 8.206 visualizações / 1.621 contas — ratio de 5,06x. **Sempre reportar os dois números separadamente.** Ratio acima de 4x é sinal positivo de relevância (conteúdo é revisitado); abaixo de 2x é sinal de baixa retenção.
+
+### Métrica-chave a passar a reportar: conversão view→follow por post
+No M1, essa métrica revelou o maior insight do mês: posts ACOLHE convertem 5-10x mais que posts CONVERTE/EDUCA puros. Cálculo: novos seguidores atribuídos ao post / visualizações do post.
+
+Faixa de referência (M1):
+- Excelente: >2%
+- Bom: 1-2%
+- Médio: 0,5-1%
+- Baixo: <0,5%
+
+### Métricas pendentes a incluir no relatório do M2 em diante
+O relatório do M1 ficou cego em três pontos. Garantir captura via Instagram Curator e incluir no template mensal:
+- **Salvamentos por post** (não apareceu no M1 — métrica-chave de EDUCA)
+- **Cliques no link da bio** (sem esse dado o relatório não toca fundo de funil)
+- **% de slides visualizados** em carrosséis (confirma/refuta hipótese do slide 2)
+
+### Comparativos vs. período anterior — agora têm baseline real
+M1 inflou comparativos (+13.300% seguidores, +56.400% atividade) porque a conta era nova. A partir do M2, comparar com baseline fixo do M1:
+- Alcance: 1.621
+- Visualizações: 8.206
+- Interações: 278
+- Visitas ao perfil: 542
+- Novos seguidores: 139
+
+### Soft launch — disclaimer no relatório
+Inserir no início de cada relatório (até o mês 4 ou até atingir 500+ seguidores): *"Dados ainda refletem fase de soft launch. Leituras demográficas e geográficas são direcionais, não estruturais."* Não recomendar mudanças editoriais baseadas em demografia até consistência de 3 meses.
+
+### Estrutura do relatório — ajuste no template
+Adicionar à estrutura existente uma seção dedicada ao **gap topo→meio do funil**:
+```
+### Funil — saúde de cada etapa
+- Alcance → Visualizações: ratio Xx (relevância de revisita)
+- Visualizações → Interações: X% (engajamento do conteúdo)
+- % de interação vinda de não-seguidores: X% ← métrica crítica de aquecimento
+- Visualizações → Novos seguidores: X% (conversão para audiência)
+- Visitas ao perfil → Cliques no link: X% (intenção real de consulta)
+```

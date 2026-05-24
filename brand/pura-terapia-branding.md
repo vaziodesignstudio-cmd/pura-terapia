@@ -68,6 +68,12 @@ A forma arredondada do logo expressa **acolhimento, cuidado e proximidade**. A r
 
 > Arquivo de referência: `figma.com/design/6ZMMyXiFge9PNbAxkhVKGz` — node `88:1196`
 
+**Assets locais exportados** (em `brand/assets/`):
+- `logo-app-icon.svg` — versão "avatar" oficial. Quadrado lima com cantos arredondados e ícone em verde escuro. Vetorial, sem perda de qualidade. **Use sempre essa versão em materiais digitais quando precisar do ícone.**
+- `logo-icon-on-light.png` — apenas o ícone em verde escuro, fundo transparente. Para aplicação sobre fundos claros.
+- `logo-icon-on-dark.png` — apenas o ícone em verde lima, fundo transparente. Para aplicação sobre fundos escuros sem o cartão.
+- `logo-wordmark-on-dark.png` — wordmark "Pura Terapia" em verde lima sobre transparente. Extraído do GIF, tem pequenos artefatos. Preferir o app-icon SVG quando possível, e exportar uma versão limpa do Figma quando precisar do wordmark.
+
 #### Logo Horizontal (uso principal)
 - **Node ID:** `88:1331`
 - **Nome:** `primary-logo-horizontal`
@@ -229,7 +235,7 @@ Legendas / labels   →  Inter Regular, tamanho menor
 | Figma — Brand Guidelines (EXT) | `figma.com/design/9kliTC3qYd2E6V2W6ZCCHt` |
 | Figma — Social / Componentes (INT) | `figma.com/design/6ZMMyXiFge9PNbAxkhVKGz` |
 | Node dos Logos | `node-id=88-1196` |
-| Instagram | `@puraterapia` |
+| Instagram | `@pura_terapia` |
 
 ---
 

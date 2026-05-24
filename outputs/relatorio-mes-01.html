@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Pura Terapia · Primeiro mês</title>
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #133F26;
+    background: #FFFFFF;
+    font-size: 11pt;
+    line-height: 1.55;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 22mm 22mm;
+    page-break-after: always;
+    position: relative;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  .cover {
+    background: #133F26;
+    color: #FFFFFF;
+    padding: 30mm 22mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 297mm;
+  }
+  .cover .logo {
+    width: 22mm;
+    height: 22mm;
+    display: block;
+  }
+  .page-icon {
+    position: absolute;
+    bottom: 12mm;
+    right: 22mm;
+    width: 9mm;
+    height: 9mm;
+    opacity: 0.7;
+  }
+  .closing-icon {
+    width: 22mm;
+    height: 22mm;
+    margin-bottom: 14mm;
+    display: block;
+  }
+  .cover h1 {
+    font-size: 40pt;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-top: 10mm;
+  }
+  .cover .subtitle {
+    font-size: 13pt;
+    color: #D5BBEA;
+    margin-top: 14mm;
+    line-height: 1.5;
+    max-width: 130mm;
+    font-weight: 400;
+  }
+  .cover .meta {
+    margin-top: auto;
+    padding-top: 20mm;
+    border-top: 1px solid rgba(255,255,255,0.18);
+    font-size: 10pt;
+    color: rgba(255,255,255,0.72);
+    display: flex;
+    justify-content: space-between;
+  }
+  .cover .meta strong { color: #FFFFFF; font-weight: 600; display: block; margin-bottom: 1.5mm; }
+
+  .section-tag {
+    display: inline-block;
+    font-size: 8.5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8E204B;
+    font-weight: 700;
+    margin-bottom: 7mm;
+  }
+  h2 {
+    font-size: 24pt;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    color: #133F26;
+    margin-bottom: 10mm;
+    max-width: 150mm;
+  }
+  h3 {
+    font-size: 13pt;
+    font-weight: 700;
+    color: #133F26;
+    margin: 7mm 0 3mm 0;
+  }
+  p { margin-bottom: 4.5mm; max-width: 165mm; }
+  strong { font-weight: 700; color: #133F26; }
+
+  .numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4mm;
+    margin: 4mm 0 9mm 0;
+  }
+  .num-card {
+    border: 1px solid #e6e8e7;
+    border-radius: 5mm;
+    padding: 7mm 6mm;
+    background: #FFFFFF;
+  }
+  .num-card.featured {
+    background: #CFEE0C;
+    border-color: #CFEE0C;
+  }
+  .num-card .number {
+    font-size: 26pt;
+    font-weight: 800;
+    color: #133F26;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .num-card .label {
+    font-size: 9pt;
+    color: #5a6b62;
+    margin-top: 3mm;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+  .num-card.featured .label { color: #133F26; }
+
+  .callout {
+    background: #f5f7f5;
+    border-left: 3mm solid #CFEE0C;
+    padding: 6mm 7mm;
+    margin: 7mm 0;
+    border-radius: 0 3mm 3mm 0;
+  }
+  .callout.lavanda {
+    background: #f7f1fb;
+    border-left-color: #D5BBEA;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout .tag {
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 700;
+    color: #8E204B;
+    margin-bottom: 3mm;
+  }
+  .callout.lavanda .tag { color: #6b4d8a; }
+
+  .post-highlight {
+    border: 1px solid #e6e8e7;
+    border-radius: 4mm;
+    padding: 6mm;
+    margin-bottom: 5mm;
+    display: flex;
+    gap: 6mm;
+    align-items: center;
+  }
+  .post-highlight .badge {
+    width: 28mm;
+    height: 28mm;
+    border-radius: 4mm;
+    background: #133F26;
+    color: #CFEE0C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 3mm;
+  }
+  .post-highlight .badge .big {
+    font-size: 15pt;
+    line-height: 1;
+    margin-bottom: 1.5mm;
+  }
+  .post-highlight .badge .small {
+    font-size: 7.5pt;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+  }
+  .post-highlight .badge.lima { background: #CFEE0C; color: #133F26; }
+  .post-highlight .info { flex: 1; }
+  .post-highlight .title {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #133F26;
+    margin-bottom: 2mm;
+  }
+  .post-highlight .desc {
+    font-size: 10.5pt;
+    color: #2a4a37;
+    line-height: 1.5;
+  }
+
+  .learnings {
+    counter-reset: learn;
+    margin-top: 4mm;
+  }
+  .learn {
+    counter-increment: learn;
+    padding: 7mm 0;
+    border-bottom: 1px solid #e6e8e7;
+    display: flex;
+    gap: 8mm;
+  }
+  .learn:last-child { border-bottom: 0; }
+  .learn::before {
+    content: counter(learn, decimal-leading-zero);
+    font-size: 22pt;
+    font-weight: 800;
+    color: #CFEE0C;
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 18mm;
+  }
+  .learn .body h3 { margin-top: 0; margin-bottom: 2.5mm; font-size: 13pt; }
+  .learn .body p { margin-bottom: 0; font-size: 11pt; color: #2a4a37; }
+
+  .changes {
+    list-style: none;
+    padding: 0;
+    margin-top: 4mm;
+  }
+  .changes li {
+    padding: 5mm 0 5mm 11mm;
+    border-bottom: 1px dashed #d8dad9;
+    position: relative;
+    font-size: 11pt;
+    color: #2a4a37;
+    line-height: 1.5;
+  }
+  .changes li:last-child { border-bottom: 0; }
+  .changes li::before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    top: 4mm;
+    color: #8E204B;
+    font-weight: 800;
+    font-size: 16pt;
+  }
+
+  .footer-note {
+    margin-top: 10mm;
+    padding-top: 6mm;
+    border-top: 1px solid #e6e8e7;
+    font-size: 10pt;
+    color: #5a6b62;
+    line-height: 1.55;
+  }
+
+  .closing {
+    background: linear-gradient(180deg, #CFEE0C 0%, #ffffff 100%);
+    min-height: 297mm;
+    padding: 50mm 22mm;
+  }
+  .closing h2 {
+    font-size: 26pt;
+    max-width: 150mm;
+    margin-bottom: 8mm;
+  }
+  .closing p {
+    font-size: 12.5pt;
+    line-height: 1.6;
+    color: #133F26;
+    max-width: 150mm;
+  }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <div>
+    <img class="logo" src="../brand/assets/logo-app-icon.svg" alt="Pura Terapia">
+    <h1>Primeiro mês no Instagram.</h1>
+    <div class="subtitle">Como foi a estreia da conta e o que vimos depois dos primeiros 30 dias.</div>
+  </div>
+  <div class="meta">
+    <div><strong>Período</strong>24 de abril a 23 de maio de 2026</div>
+    <div><strong>Fase</strong>Soft launch</div>
+    <div><strong>Canal</strong>Instagram @pura_terapia</div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="section-tag">Resumo</div>
+  <h2>O mês 1.</h2>
+
+  <p>A Pura Terapia entrou no Instagram no dia 24 de abril. Trinta dias depois, a conta tinha 134 seguidores, mais de 1.600 contas únicas já tinham visto algum conteúdo, e o público gerou quase 280 interações entre curtidas, comentários e salvamentos.</p>
+
+  <p>São números pequenos, e isso era esperado. Uma marca que acabou de nascer não cresce rápido sem investimento pago, e o objetivo desse primeiro mês nunca foi volume. Era entender como o público reage, observar o que conecta com a audiência e descobrir o que precisa mudar antes da gente acelerar.</p>
+
+  <p>Foi isso que a gente fez. As próximas páginas contam o que vimos, sem inflar nada nem maquiar o que ficou abaixo do esperado.</p>
+
+  <div class="callout">
+    <div class="tag">Sobre esse relatório</div>
+    <p>Sem planilha, sem termos técnicos. Os números principais, o que eles dizem, o que ficou claro depois de um mês e o que muda nos próximos.</p>
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page">
+  <div class="section-tag">Os números</div>
+  <h2>O que aconteceu em 30 dias.</h2>
+
+  <div class="numbers">
+    <div class="num-card featured">
+      <div class="number">134</div>
+      <div class="label">Novos seguidores</div>
+    </div>
+    <div class="num-card">
+      <div class="number">8.206</div>
+      <div class="label">Visualizações</div>
+    </div>
+    <div class="num-card">
+      <div class="number">1.621</div>
+      <div class="label">Contas alcançadas</div>
+    </div>
+    <div class="num-card">
+      <div class="number">542</div>
+      <div class="label">Visitas ao perfil</div>
+    </div>
+    <div class="num-card">
+      <div class="number">278</div>
+      <div class="label">Interações</div>
+    </div>
+    <div class="num-card">
+      <div class="number">33</div>
+      <div class="label">Compartilhamentos</div>
+    </div>
+  </div>
+
+  <p>A leitura mais importante desses números não está em nenhum deles isolado, e sim em duas relações entre eles.</p>
+
+  <p>A primeira é boa. Das 8.206 visualizações, quase 60% vieram de pessoas que ainda não seguiam a Pura Terapia. Ou seja, o Instagram está mostrando o conteúdo para gente nova, fora do círculo inicial. É exatamente o que precisa acontecer no começo.</p>
+
+  <p>A segunda é o ponto fraco. Dessas pessoas que descobriram a marca, só uma em cada dez parou para interagir com o conteúdo. O conteúdo está prendendo atenção na primeira tela, mas perdendo o público logo depois. Essa é a principal lacuna a fechar nos próximos meses.</p>
+
+  <div class="callout lavanda">
+    <p>A marca está sendo encontrada. O próximo passo é segurar quem encontrou.</p>
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page">
+  <div class="section-tag">Posts em destaque</div>
+  <h2>Dois posts contam quase tudo.</h2>
+
+  <p>De tudo que foi publicado em maio, dois posts em particular explicam quase a história inteira do mês. Cada um por uma razão diferente, e juntos eles deixaram clara a principal lição.</p>
+
+  <div class="post-highlight">
+    <div class="badge lima"><span class="big">+46</span><span class="small">seguidores</span></div>
+    <div class="info">
+      <div class="title">"Seu bem-estar começa aqui"</div>
+      <div class="desc">Foi o post mais visto do mês, com 2.099 visualizações, e trouxe sozinho 33% de todos os seguidores que a conta ganhou. É o post de apresentação da marca, com uma foto editorial e uma frase forte. Mostrou que o público entra pela emoção, e não pela explicação técnica do serviço.</div>
+    </div>
+  </div>
+
+  <div class="post-highlight">
+    <div class="badge"><span class="big">+9</span><span class="small">seguidores</span></div>
+    <div class="info">
+      <div class="title">"Você não está exagerando"</div>
+      <div class="desc">Esse foi quase o oposto. Teve sete vezes menos visualizações que o anterior, mas em proporção converteu três vezes mais. É um post pequeno, sobre cansaço sem motivo aparente e ansiedade sem causa, e mostrou que validar o que a pessoa sente cria conexão mais profunda do que tentar ensinar alguma coisa.</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <div class="tag">A principal leitura do mês</div>
+    <p>Acolher converte mais do que explicar. Conteúdo que reconhece o que a pessoa sente, sem tentar ensinar nada, foi o que mais transformou visualização em seguidor. Essa leitura já está reorganizando o calendário dos próximos meses.</p>
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page">
+  <div class="section-tag">A audiência</div>
+  <h2>Um primeiro retrato, ainda em rascunho.</h2>
+
+  <p>Com 134 seguidores, qualquer leitura sobre quem é o público da Pura Terapia precisa vir com cautela. Os primeiros 100 ou 200 seguidores de qualquer marca tendem a vir de gente próxima: amigos, parentes, indicações, parceiros. Só a partir de algumas centenas é que os dados começam a refletir de fato quem a marca está atraindo de forma orgânica.</p>
+
+  <p>Mesmo assim, vale registrar o que apareceu até aqui. A maior parte do público é de mulheres, 58% no total, com concentração na faixa de 25 a 44 anos. Geograficamente, São Paulo e ABC concentraram a maioria, com presença residual em outras cidades.</p>
+
+  <p>Apareceu também um grupo menor de pessoas acima dos 55 anos, o que pode ou não ser uma tendência real. É cedo demais para saber. Por enquanto, nenhuma decisão estratégica grande está sendo tomada com base nessa amostra.</p>
+
+  <div class="callout lavanda">
+    <div class="tag">Por que esperar antes de tirar conclusões</div>
+    <p>Os primeiros seguidores de qualquer marca tendem a vir de círculos próximos, e isso enviesa qualquer leitura demográfica feita logo no começo. Em dois ou três meses, com uma base maior de seguidores, esses dados ficam confiáveis o suficiente para informar decisões.</p>
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page">
+  <div class="section-tag">Aprendizados</div>
+  <h2>O que ficou claro depois de um mês.</h2>
+
+  <div class="learnings">
+    <div class="learn">
+      <div class="body">
+        <h3>Acolher converte mais que explicar.</h3>
+        <p>Conteúdo emocional, que valida o que a pessoa sente sem tentar ensinar nada, foi o que mais transformou visualização em seguidor. É o tipo de post que faz alguém parar, se reconhecer e decidir ficar.</p>
+      </div>
+    </div>
+    <div class="learn">
+      <div class="body">
+        <h3>Explicar demais cansa antes de educar.</h3>
+        <p>Posts longos detalhando como o serviço funciona foram vistos, mas geraram pouco vínculo. Educação técnica funciona, só que depois que existe confiança. Antes disso, vira informação demais para quem ainda nem decidiu se está interessado.</p>
+      </div>
+    </div>
+    <div class="learn">
+      <div class="body">
+        <h3>A primeira tela atrai, a segunda ainda perde.</h3>
+        <p>As capas dos posts estão funcionando bem. Atraem cliques, geram visualizações, aparecem no feed de gente nova. Mas o que vem depois ainda não está prendendo a atenção. Esse é o trabalho específico do próximo ciclo de conteúdo: melhorar o que acontece entre o "isso me chamou atenção" e o "vou salvar pra ver depois".</p>
+      </div>
+    </div>
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page">
+  <div class="section-tag">Próximos passos</div>
+  <h2>O que muda nos próximos meses.</h2>
+
+  <p>O mês 2, em junho, já está em execução com parte desses aprendizados aplicados. O mês 3, em julho, vai incorporar o restante.</p>
+
+  <ul class="changes">
+    <li>Mais conteúdo emocional na linha do que mais funcionou. Posts que reconhecem o que a pessoa sente antes de oferecer qualquer caminho.</li>
+    <li>Reels começam a entrar no calendário. Vídeo curto é hoje o formato de maior alcance no Instagram, e os médicos parceiros se disponibilizaram a gravar.</li>
+    <li>Histórias reais de pacientes, com autorização, vão começar a entrar no feed.</li>
+    <li>Stories diários a partir de julho.</li>
+    <li>Vamos passar a medir três indicadores que ainda não captávamos: quantas pessoas salvam o conteúdo, quantas clicam no link da bio e até onde leem cada carrossel.</li>
+    <li>A primeira meta clara é dobrar a proporção de gente que descobre a marca e interage com o conteúdo. De uma pessoa em cada dez hoje, para duas em cada dez nos próximos meses.</li>
+  </ul>
+
+  <div class="footer-note">
+    Construir base no Instagram leva tempo. Os primeiros meses são lentos e os números, pequenos. É exatamente isso que a marca precisa pra acertar o tom antes de crescer.
+  </div>
+  <img class="page-icon" src="../brand/assets/logo-icon-on-light.png" alt="">
+</section>
+
+<section class="page closing">
+  <img class="closing-icon" src="../brand/assets/logo-app-icon.svg" alt="Pura Terapia">
+  <div class="section-tag">Daqui pra frente</div>
+  <h2>O ritmo agora.</h2>
+  <p>A marca está no ar, sendo descoberta, e o público já mostrou o que conecta e o que conecta menos. Daqui pra frente é continuar publicando, ajustar o que pediu ajuste e dar tempo para o resto.</p>
+  <p>A próxima leitura completa será o relatório de junho, no início de julho.</p>
+</section>
+
+</body>
+</html>

@@ -97,3 +97,54 @@ Usar as mesmas hashtags do feed + `#reels #reelsinstagram`
 - Comentários com identificação
 - Cliques no link da bio originados de vídeos
 - Salvamentos de reels
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Reels com médico real passam a ser o formato-âncora
+A partir do M3, médicos parceiros disponibilizaram-se para gravar. Isso muda fundamentalmente o que entendíamos como "estrutura padrão de Reel" — o vídeo deixa de ser conteúdo editado em motion e passa a ser talking head humano com identidade da marca aplicada apenas como suporte (texto sobreposto, transições leves).
+
+**Princípio central:** o médico não é "porta-voz da marca". O médico é a marca em forma humana. A diferença é importante — porta-voz lê roteiro; ser-a-marca é falar com naturalidade dentro de um framework.
+
+### Framework de hook (substitui "Ganchos que funcionam" da estrutura original)
+
+**O que NÃO usar como abertura — a partir do M3:**
+- "Você sabia que..." (queimado, anuncia palestra)
+- "Hoje vou falar sobre..." (anuncia, não engaja)
+- Listas anunciadas no início sem promessa concreta ("3 coisas que...")
+- Começar com personagem-emoji ansioso/indisposto: serve para feed estático, dilui em Reel com pessoa real
+
+**5 fórmulas de hook validadas para o universo Pura Terapia® em vídeo:**
+
+| Fórmula | Estrutura | Exemplo |
+|---|---|---|
+| Validação específica | "Se você [sintoma específico] — eu quero te dizer uma coisa." | "Se você acorda às 3 da manhã, três ou quatro vezes por semana, sem motivo aparente — eu quero te dizer uma coisa." |
+| Confissão do médico | "Vou ser direto: [verdade desconfortável]." | "Vou ser direto: tem três frases que eu ouço toda semana e nenhuma das três está certa." |
+| Quebra de expectativa | "Eu fui formado para [esperado], e [virada]." | "Eu fui formado para ser cético com isso. Foi uma paciente que mudou minha cabeça." |
+| Convite ao bastidor | "Quer saber o que eu [ação interna]? Não tem mistério." | "Quer saber o que eu falo na primeira consulta? Não tem mistério nenhum." |
+| Frase do paciente | "Tem uma frase que pacientes meus dizem [contexto emocional]." | "Tem uma frase que pacientes meus dizem com vergonha. E não devia ser motivo de vergonha nenhum." |
+
+### Estrutura revisada do Reel (a partir do M3)
+
+```
+[0–3s]   HOOK — uma das 5 fórmulas acima, com promessa de payload embutida
+[3–25s]  PAYLOAD — o que foi prometido: a validação, o mito, a virada, o bastidor
+[25–35s] PONTE — uma frase que dá sentido prático ao que foi dito
+[35–40s] CTA — leve, humano, sem urgência ("link na bio se quiser entender o seu caso", não "agende agora")
+```
+
+**Duração-alvo:** 30 a 40 segundos. Os Reels do M2 estavam indo para 45 — vamos cortar 5-10 segundos por padrão.
+
+### Direção de tom (transversal a todos os Reels com médico)
+- Médico fala com **uma pessoa específica**, não com uma audiência. Câmera = paciente do outro lado.
+- Sem jargão. Se aparecer um termo técnico, ele é traduzido na mesma frase.
+- Sem dramatização. Tom calmo, com pausas. A informação tem peso suficiente — não precisa de música épica.
+- Nenhuma menção a produto, dose ou marca de medicamento. Só processo, validação e percepção.
+
+### Banco de Reels pronto para o M3
+Quando o calendário do M3 for desenvolvido, partir do banco em [outputs/banco-reels-m3.md](../../outputs/banco-reels-m3.md) — 4 Reels prioritários (que substituem os de junho) + 4 banco. Não recomeçar do zero.
+
+### Hipótese central a validar no M3
+**Reels ACOLHE com médico convertem mais que posts ACOLHE estáticos.** Métrica de decisão: conversão view→follow no Reel A do banco vs. baseline do post "Você não está exagerando" do M1 (3,0%). Meta: > 4%. Se confirmar, Reel com médico vira formato principal de aquisição.
+
+### O que isso significa para TikTok
+Por enquanto, o esforço dos médicos é direcionado a Reels do Instagram. TikTok permanece como canal secundário em modo observação — os Reels podem ser republicados em TikTok com ajuste mínimo (legenda + primeiros segundos sem mencionar "cannabis" diretamente), mas não há estratégia ativa de produção exclusiva para TikTok até o M4 ou M5.

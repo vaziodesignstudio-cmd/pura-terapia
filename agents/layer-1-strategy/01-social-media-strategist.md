@@ -101,3 +101,27 @@ Simplificar o acesso à saúde regulada no Brasil, conectando pessoas a especial
 - Crescimento de seguidores orgânico mês a mês
 - Taxa de engajamento por pilar (para calibrar mix)
 - Cliques no link da bio (conversão para consulta)
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Mix de pilares — revisão sob avaliação
+A distribuição original (EDUCA 30% / ACOLHE 25% / INSPIRA 20% / COMPROVA 15% / CONVERTE 10%) precisa ser revisitada após junho. No M1, ACOLHE foi o pilar com maior taxa de conversão view→follow (3,0% em "Você não está exagerando" — 10x acima da média), enquanto EDUCA gerou autoridade mas baixa fidelização de novos seguidores.
+
+**Decisão para o M3:** se o EDUCA do M2 mantiver conversão view→follow abaixo de 1%, recalibrar para **ACOLHE 30-35% / EDUCA 20% / INSPIRA 20% / COMPROVA 15% / CONVERTE 10-15%**. Validar com dados de fechamento de junho antes de fechar o calendário de julho.
+
+### Sequência conversacional do funil — manter
+CONVERTE puro não converte em primeiro toque ("Como funciona? 3 passos" teve 1.868 views e apenas 7 follows no M1). Manter padrão de junho: CONVERTE entra a partir da semana 3 do mês, após 2 semanas de ACOLHE/EDUCA/COMPROVA aquecendo a audiência.
+
+### Cadência regular — manter
+Concentração de produção em janela única (4-6 de maio no M1) gerou ranking enviesado e silêncio no resto do mês. Junho corrigiu para 3 posts/semana distribuídos. Manter como padrão operacional.
+
+### Demografia — segurar conclusões
+Dados de M1 são de soft launch (134 seguidores). Não criar séries editoriais ou reposicionamentos baseados em faixa etária ou localização antes de **500+ seguidores** ou consistência demográfica em 3 meses consecutivos. Tratar dados de soft launch como sinal direcional, não mandato editorial.
+
+### Baseline de funil (M1 — referência fixa)
+- Alcance: 1.621 contas únicas
+- Visualizações: 8.206
+- Interações: 278 (90,5% de seguidores / 9,5% não-seguidores → gap a fechar)
+- Visitas ao perfil: 542
+- Novos seguidores: 139
+- Conversão crítica a melhorar: % de não-seguidores que interagem (M1: 9,5% → meta M3: 18-20%)

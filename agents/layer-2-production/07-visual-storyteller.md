@@ -112,3 +112,38 @@ Forma arredondada = acolhimento, cuidado, proximidade. A composição remete a u
 - Consistência visual avaliada pelo Brand Guardian
 - Engajamento em posts com diretriz visual aplicada
 - Reconhecimento de marca em pesquisas de audiência
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Capa com rosto humano expressivo é o maior atrator do feed
+No M1, a capa de "Seu bem-estar começa aqui" (mulher sorridente com lenço na cabeça, fotografia real, paleta verde clara) trouxe 46 seguidores — 33% de todo o crescimento orgânico do mês. Capas de mesma família (tipográficas em fundo verde escuro ou verde lima) tiveram views similares mas conversão view→follow ~5x menor.
+
+**Hipótese validada:** rosto humano expressivo + paleta de marca + tipografia legível supera capas puramente tipográficas em conversão para follow.
+
+### Junho recuou — corrigir no M3
+O briefing de junho preferiu fotografias íntimas sem rosto direto (mãos com xícara, quarto escurecido, mão apoiada em superfície). É uma direção visual válida para ACOLHE íntimo, mas perdeu a alavanca de conversão validada no M1.
+
+**Para o M3 (julho):** garantir **pelo menos 2 posts por mês** com capa de pessoa real (rosto visível, expressão genuína, fotografia editorial — não banco de imagens). Candidatos naturais:
+- Post-manifesto de abertura de mês (INSPIRA aspiracional)
+- Posts de depoimento (COMPROVA) — Mariana C. do M2 já abriu o precedente
+- Posts ACOLHE de validação emocional forte
+
+### Mood por pilar — refinamento baseado no M1
+- **INSPIRA aspiracional/manifesto:** privilegiar fotografia de pessoa real + paleta verde-clara/lavanda + tipografia Benton Sans Bold com frase poética curta
+- **ACOLHE íntimo:** detalhe corporal (mãos, perfil, olhos fechados) funciona bem para validação emocional silenciosa — manter como já desenhado em junho
+- **EDUCA:** capas tipográficas em fundo de cor cheia atraem views mas convertem pouco follow — usar quando o objetivo é salvamento/autoridade, não crescimento
+
+### Direção visual de Reels com médico (formato-âncora do M3)
+A partir do M3, Reels passam a contar com médicos parceiros gravando. A direção visual desses Reels precisa romper com a estética clínica padrão:
+
+- **Sem consultório, sem jaleco, sem estetoscópio.** Nada que evoque visualmente "ambiente hospitalar". O médico aparece em ambiente neutro e acolhedor — sala iluminada por luz natural, pode ser de casa, pode ser uma sala de clínica desconstruída. Madeira, têxteis, plantas funcionam; superfícies brancas e equipamento médico, não.
+- **Talking head íntimo.** Câmera próxima (busto), médico sentado, olhando direto para a lente como se estivesse falando com uma pessoa específica. Não em pé, não com slides ou apresentação ao fundo.
+- **Iluminação suave e lateral.** Nunca luz cenográfica frontal. Vale luz natural de janela ou key light suave de lado.
+- **Enquadramento:** vertical 9:16 com pessoa ocupando o terço central. Espaço acima para texto sobreposto sem cobrir o rosto.
+- **Áudio limpo, música quase imperceptível.** A voz do médico é o instrumento principal. Música ambiente em volume bem baixo, instrumental, sem letra.
+- **Texto sobreposto só em 3 momentos:** hook reforçado nos primeiros 3 segundos, payload principal no meio, CTA leve no fim. Tipografia Benton Sans Bold, terço inferior, com a paleta da marca aplicada.
+- **Sem imagens de cannabis.** Nem folhas, nem produtos, nem frascos. O Reel é sobre o paciente e o cuidado, não sobre a substância.
+- **Cada médico, sua própria voz visual.** Não padronizar enquadramento, fundo ou vestuário entre médicos diferentes. Médicos diferentes em ambientes coerentes mas distintos reforçam a ideia de "vários especialistas reais", não "um ator com várias falas".
+
+### Distinção visual Reel vs. carrossel
+Reel = pessoa real, ambiente real, voz real. Carrossel = tipografia, paleta de marca, identidade visual sistematizada. Os dois formatos não devem competir esteticamente — eles se complementam. O carrossel constrói reconhecimento de marca; o Reel constrói reconhecimento humano.

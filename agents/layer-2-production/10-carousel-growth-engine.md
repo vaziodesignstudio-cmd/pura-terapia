@@ -29,7 +29,7 @@ A marca fala como uma amiga especialista. Nos carrosséis isso significa:
 - **Paleta:** Verde Lima `#CFEE0C`, Verde Escuro `#133F26`, Lavanda `#D5BBEA`, Branco `#FFFFFF`
 - **Slide 1:** impactante — fundo de cor cheia ou foto forte com texto em Benton Sans Bold
 - **Slides 2–N:** fundo mais limpo (branco ou verde escuro) para facilitar leitura
-- **Slide final:** logo posicionado + CTA + handle @puraterapia
+- **Slide final:** logo posicionado + CTA + handle @pura_terapia
 - **Tipografia:** Benton Sans para títulos dos slides, Inter para corpo
 
 ## Estrutura Padrão por Pilar
@@ -121,3 +121,27 @@ Carrossel que começa com uma pergunta direta sobre como a pessoa está se senti
 - Taxa de compartilhamento
 - Alcance por carrossel (indicador de performance no algoritmo)
 - % de slides visualizados (quando disponível via insights)
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Diagnóstico do gap topo→meio do funil
+No M1, 59,2% das visualizações vieram de não-seguidores, mas apenas 9,5% das interações vieram desse grupo. **O hook (slide 1) está funcionando; o slide 2 está perdendo o leitor antes do carrossel converter.**
+
+### Slide 2 com promessa explícita — adotar como padrão EDUCA
+Carrosséis EDUCA do M1 e M2 abrem o slide 2 com **contexto/definição** ("CBD é um canabinoide...", "O sistema endocanabinoide é..."). Quem chega de não-seguidor não tem motivo para continuar.
+
+**Padrão a adotar no M3:** slide 2 dos carrosséis EDUCA entrega uma **promessa do que o leitor vai ganhar ao chegar no final do carrossel**, antes de começar a explicar. Exemplos:
+- "Ao final desses 5 slides você vai entender o que muda no seu corpo quando você usa CBD."
+- "5 perguntas. 5 respostas claras. Sem jargão."
+- "Você vai sair daqui sabendo a diferença entre as duas coisas que confundem todo mundo."
+
+Manter o slide 3+ como contexto/definição. Slide 2 = promessa, não contexto.
+
+### Slide 2 dos carrosséis COMPROVA — manter padrão atual
+COMPROVA já entrega dado de impacto no slide 2 ("79% relataram melhora na ansiedade", Post 05/jun). Funciona bem porque o dado **é** a promessa.
+
+### Carrosséis CONVERTE — passo a passo numerado funciona
+Post 08/jun ("Como é a consulta") usa "Passo 01 / Passo 02 / Passo 03 / Passo 04" — formato cumulativo dá ao leitor visibilidade do tamanho do compromisso. Manter padrão.
+
+### Capturar % de slides visualizados como rotina
+Não temos esse dado no relatório do M1 (Instagram Curator vai capturar a partir do M2). É a métrica que confirma ou refuta a hipótese do slide 2. Pedir ao Analytics Reporter para incluir na próxima revisão.

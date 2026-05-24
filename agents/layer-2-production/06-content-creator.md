@@ -132,3 +132,71 @@ A marca fala como **uma amiga especialista**: sabe muito, mas explica de forma s
 - Taxa de compartilhamento
 - Taxa de cliques no link da bio (posts CONVERTE)
 - Tempo médio de leitura em carrosséis (via Instagram Insights)
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Estrutura de cópia mais eficiente da marca: padrão "Você não está exagerando"
+O post de maior conversão view→follow do M1 (3,0%) seguiu três movimentos em sequência. **Replicar essa arquitetura em todo post ACOLHE de abertura de semana ou de mês:**
+
+1. **Nomeação da dor** — frase curta que dá nome ao que a pessoa sente, sem rodeio
+   - "Cansaço que não passa."
+   - "Noite que não dorme."
+2. **Validação** — afirmação que tira a culpa de quem sente
+   - "Você não está exagerando."
+   - "Não é frescura."
+   - "Não é preguiça."
+3. **Ponte sem venda** — sinaliza que existe caminho, sem CTA agressivo
+   - "E tem solução."
+   - "Existe um caminho para isso."
+
+Variações já validadas em junho:
+- "Você não precisa esperar piorar" (Post 01/jun)
+- "Não é frescura. É o seu sistema nervoso." (Reel 01/jun)
+- "Pedir ajuda não é fraqueza" (Post 06/jun)
+- "Cuidar de si não é egoísmo" (Post 11/jun)
+
+**Banco a expandir para o M3:** "não está na sua cabeça", "não é só estresse", "não é fraqueza emocional".
+
+### CONVERTE puro não converte em primeiro toque
+"Como funciona? 3 passos" (M1) — 1.868 views, 7 follows (0,4%). Posts CONVERTE precisam vir **depois de pelo menos 2 toques** de ACOLHE/EDUCA na mesma semana. Posicionar CONVERTE no meio ou no fim do mês, nunca como abertura.
+
+### Manifesto/INSPIRA aspiracional como porta de entrada
+"Seu bem-estar começa aqui" (M1) — 2.099 views, 46 follows (2,2%). Vale 1 post-manifesto por mês na primeira semana — frase poética + imagem de pessoa real. Não repetir o asset; criar variações temáticas do mesmo papel narrativo.
+
+### Linguagem da audiência alimenta o conteúdo
+A partir de junho, caixinhas e enquetes coletam vocabulário real. Cruzar com o Trend Researcher mensalmente e incorporar expressões literais nos hooks dos posts ACOLHE.
+
+### Hooks de Reels — framework validado para o M3
+Os Reels do M2 (planejamento original de junho) serão refeitos. A partir do M3, Reels passam a usar o seguinte framework de hook (0-3s), validado pelos aprendizados do M1 e potencializado pela disponibilidade dos médicos parceiros para gravar.
+
+**O que NÃO usar como abertura de Reel:**
+- "Você sabia que..." (formulaico e genérico)
+- "Hoje vou falar sobre..." (anuncia, não engaja)
+- Listas anunciadas no início ("3 coisas que..." sem promessa concreta)
+- Definições ou contexto antes do gancho emocional
+
+**O que usar — 5 fórmulas de hook que funcionam para a marca:**
+
+1. **Validação específica:** *"Se você [comportamento ou sintoma específico], [pausa] eu quero te dizer uma coisa."*
+   - Ex: *"Se você acorda às 3 da manhã, três ou quatro vezes por semana, sem motivo aparente — eu quero te dizer uma coisa."*
+
+2. **Confissão do médico:** *"Vou ser direto com vocês: [verdade desconfortável]."*
+   - Ex: *"Vou ser direto: tem três frases que eu ouço toda semana e nenhuma das três está certa."*
+
+3. **Quebra de expectativa do papel médico:** *"Eu fui formado para [esperado], e [virada]."*
+   - Ex: *"Eu fui formado para ser cético com isso. Foi uma paciente que mudou minha cabeça."*
+
+4. **Convite ao bastidor:** *"Quer saber o que eu [ação interna da consulta]? Não tem mistério nenhum."*
+   - Ex: *"Quer saber o que eu falo na primeira consulta com uma paciente nova? Não tem mistério nenhum."*
+
+5. **Frase do paciente repetida:** *"Tem uma frase que pacientes meus dizem [contexto emocional]."*
+   - Ex: *"Tem uma frase que pacientes meus dizem com vergonha. E não devia ser motivo de vergonha nenhum."*
+
+**Princípios transversais aos hooks:**
+- O hook precisa carregar **promessa de payload**, não apenas curiosidade. Quem assiste tem que saber, em 3 segundos, o que vai ganhar se ficar.
+- O médico não abre como autoridade. Abre como **alguém prestes a contar algo que normalmente não se diz em consulta** — postura confessional, não didática.
+- Duração-alvo do Reel inteiro: 30 a 40 segundos. O M2 estava indo para 45 — cortar.
+- CTA fica só no final. Nunca no meio.
+
+### Banco de Reels do M3
+Quando o calendário do M3 for desenvolvido, partir do banco em [outputs/banco-reels-m3.md](../../outputs/banco-reels-m3.md). Não recomeçar do zero.

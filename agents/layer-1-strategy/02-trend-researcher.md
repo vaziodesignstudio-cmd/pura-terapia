@@ -75,3 +75,24 @@ Acolhedor, claro, confiável, empático. **Nunca alarmista.** A marca fala como 
 - % de pautas sugeridas que viram conteúdo publicado
 - Engajamento médio dos posts originados de tendências identificadas
 - Antecipação de pautas (dias de antecedência em relação ao pico)
+
+## Calibração pós-M1 (vigente a partir do M3 — julho/2026)
+
+### Dor validada como linha editorial recorrente
+O post "Você não está exagerando" (ansiedade sem motivo aparente, cansaço sem causa) teve no M1 a maior taxa de conversão view→follow do mês (3,0% vs. média ~1%). É a entrada emocional mais eficiente da marca.
+
+**Investigação prioritária para o M3:** mapear 5-10 variações dessa mesma família de dor para alimentar o Content Creator. Padrão de procura:
+- "não é frescura" — dor crônica minimizada
+- "não é preguiça" — fadiga / esgotamento
+- "não é só estresse" — ansiedade somatizada
+- "não está na sua cabeça" — sintomas físicos sem diagnóstico claro
+- "não é exagero" — sensibilidade emocional invalidada
+
+### Vocabulário da audiência — captura ativa
+A partir do M2, junho passou a usar caixinhas (Stories 05, 07) e enquetes (Stories 03, 06) para coletar linguagem real da audiência. Cruzar essas respostas com os comentários dos posts ACOLHE para identificar:
+- Expressões recorrentes que a audiência usa para nomear a própria dor
+- Objeções emergentes em comentários (especialmente em CONVERTE)
+- Perguntas que aparecem na caixinha mas ainda não viraram post
+
+### Soft launch — segurar leituras de tendência por demografia
+Dados demográficos do M1 (mulheres 25-34, presença inesperada em 55-64) refletem amostra de 134 seguidores. Não usar como base para pautar tendências por segmento de idade antes de baseline real (mês 3-4 com volume).

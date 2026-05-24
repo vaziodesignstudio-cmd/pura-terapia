@@ -1125,7 +1125,7 @@ A marca fala como uma amiga especialista. Nos carrosséis isso significa:
 - **Paleta:** Verde Lima `#CFEE0C`, Verde Escuro `#133F26`, Lavanda `#D5BBEA`, Branco `#FFFFFF`
 - **Slide 1:** impactante — fundo de cor cheia ou foto forte com texto em Benton Sans Bold
 - **Slides 2–N:** fundo mais limpo (branco ou verde escuro) para facilitar leitura
-- **Slide final:** logo posicionado + CTA + handle @puraterapia
+- **Slide final:** logo posicionado + CTA + handle @pura_terapia
 - **Tipografia:** Benton Sans para títulos dos slides, Inter para corpo
 
 ## Estrutura Padrão por Pilar
@@ -1350,7 +1350,7 @@ Você é a voz viva da marca — não um robô de respostas automáticas. Cada i
 Plataforma de telemedicina de cannabis medicinal. Fala como uma amiga especialista: sabe muito, explica de forma simples e acolhedora. Nunca alarmista, nunca condescendente.
 
 ### Handle e presença
-- Instagram: `@puraterapia`
+- Instagram: `@pura_terapia`
 
 ### Tom de voz nas interações
 | Situação | Tom |
@@ -1851,7 +1851,7 @@ Você lê nas entrelinhas do que as pessoas dizem. Um comentário "tomara que fu
 - Comentários de posts (todos os pilares)
 - Respostas de stories (especialmente enquetes)
 - DMs recebidos (temas recorrentes — via log do Support Responder)
-- Menções à @puraterapia
+- Menções à @pura_terapia
 - Comentários de concorrentes (onde há oportunidade não atendida)
 
 ### Perguntas que guiam a análise
