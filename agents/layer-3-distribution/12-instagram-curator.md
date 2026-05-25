@@ -180,3 +180,28 @@ Os Reels do M2 originais serão refeitos. A partir do M3, **pelo menos 1 Reel po
 - Compartilhamentos por 1.000 views (meta: >8)
 - Salvamentos por 1.000 views (meta: >15)
 - Conversão view→follow em Reels ACOLHE (meta: >4%, supera o post estático mais convertedor do M1)
+
+### Link da bio: investigação prioritária antes do M3
+Os dados do Business Suite mostraram **zero cliques no link da bio em todo o M1** (28 dias, 0 cliques registrados). É preciso descobrir qual das duas situações é antes do M3:
+
+**Caminho 1: tracking quebrado.** O Business Suite só captura cliques no link da bio quando ele está configurado como link nativo do Instagram (campo de URL único no perfil). Se a Pura Terapia usa Linktree, Beacons ou outro agregador, esses cliques são registrados na ferramenta externa, não no Insights.
+
+**Ação:** confirmar com o cliente qual link está configurado. Se for Linktree, pegar acesso ao analytics do Linktree e tratar como fonte oficial de cliques fundo-de-funil daqui pra frente.
+
+**Caminho 2: tracking funcionando, cliques realmente zerados.** Se o link é o nativo do Instagram e mesmo assim aparece 0, então os CTAs estão sendo de fato ignorados.
+
+**Ação:** trabalhar com Content Creator para CTAs ativos no M3, e considerar mudança do link da bio para algo com proposta de valor mais clara ("Quero agendar minha consulta") em vez do default genérico do site.
+
+### Cadência real no M1: 2,25 posts/semana (abaixo da meta de 3-4)
+9 posts em 28 dias, com gaps de até 5 dias entre publicações (15/05 a 20/05). Quando não tem post novo, alcance vai a quase zero.
+
+**Para o M3:** rastrear cadência semanalmente e disparar alerta se houver mais de 3 dias sem publicação no feed. Posts já planejados no calendário precisam ser publicados nas datas combinadas — atrasos viram silêncio de algoritmo.
+
+### Imagem estática perdeu o lugar como formato principal
+No M1: 3 imagens estáticas, média de 184 views, 0 salvamentos, 0 follows somados. Carrosséis: 945 views médias, 2 saves, 65 follows somados.
+
+**Decisão operacional para M3:** imagem estática só entra no calendário em 1 dos 2 casos:
+1. Post-manifesto único do mês (fotografia editorial com pessoa real, ex: "Seu bem-estar começa aqui")
+2. Repost de depoimento de paciente com citação visual (formato COMPROVA validado em junho)
+
+Fora disso, transformar em carrossel ou Reel.

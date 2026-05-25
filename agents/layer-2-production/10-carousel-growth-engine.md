@@ -145,3 +145,25 @@ Post 08/jun ("Como é a consulta") usa "Passo 01 / Passo 02 / Passo 03 / Passo 0
 
 ### Capturar % de slides visualizados como rotina
 Não temos esse dado no relatório do M1 (Instagram Curator vai capturar a partir do M2). É a métrica que confirma ou refuta a hipótese do slide 2. Pedir ao Analytics Reporter para incluir na próxima revisão.
+
+### Realidade do M1: taxa de salvamento = 0,03% (meta era >3%)
+Quando os dados granulares do Business Suite chegaram, a hipótese central deste agent foi parcialmente quebrada. Em 9 posts do mês 1 (6.226 visualizações totais), houve apenas **2 salvamentos**. Sete dos nove posts zeraram em saves.
+
+Posts EDUCA não estão sendo salvos. A premissa de que "carrossel educativo gera salvamento" estava errada no nosso contexto.
+
+**Hipótese para o salvamento não acontecer:**
+O conteúdo está se entregando completo dentro do scroll. A pessoa lê os 5-7 slides, chega ao final, e sai sem motivo concreto pra revisitar. "Salva pra ler depois" não faz sentido quando ela já leu tudo.
+
+**Mudança estrutural a partir do M3:**
+O slide final dos carrosséis EDUCA deve carregar algo concretamente revisitável, não só uma síntese:
+- **Checklist visual** (3-5 itens com checkboxes desenhados, formato de consulta rápida)
+- **Tabela de referência** (ex: "qual canabinoide para qual sintoma")
+- **Guia de bolso** (passo a passo numerado, formato pra screenshot)
+- **Dúvidas para levar à próxima consulta** (lista de perguntas que o leitor pode usar de fato)
+
+CTAs do tipo "salva pra revisar quando precisar" só funcionam quando a peça tem informação que **se acessa de novo**. Conteúdo educativo conclusivo informa, mas não merece o save.
+
+### Imagens estáticas têm performance 5x menor que carrosséis (M1)
+Carrosséis no M1: 945 views médias. Imagens estáticas: 184 views médias. Imagens estáticas também tiveram zero salvamentos no mês inteiro.
+
+A partir do M3, imagem estática vira recurso de uso limitado: usar quando a peça é um manifesto curto (tipo o "Seu bem-estar começa aqui"), nunca como carregador de informação ou CTA isolado.

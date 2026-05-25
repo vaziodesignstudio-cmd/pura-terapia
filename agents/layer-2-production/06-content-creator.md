@@ -200,3 +200,29 @@ Os Reels do M2 (planejamento original de junho) serão refeitos. A partir do M3,
 
 ### Banco de Reels do M3
 Quando o calendário do M3 for desenvolvido, partir do banco em [outputs/banco-reels-m3.md](../../outputs/banco-reels-m3.md). Não recomeçar do zero.
+
+### CTAs passivos não geraram nada no M1 (dados Business Suite)
+Quando os dados granulares chegaram, descobrimos que:
+- **67% dos posts do M1 zeraram em comentários** (6 de 9 posts sem nenhuma conversa)
+- **Taxa de salvamento ficou em 0,03%** (2 saves em 6.226 views totais nos posts trackados)
+- **Cliques no link da bio: 0 no mês inteiro** (parcialmente atribuível a tracking, parcialmente a CTA fraco)
+
+Quase todos os CTAs do M1 foram **passivos**: "salva pra revisar", "compartilha com quem precisa", "link na bio". Quando a audiência ainda não conhece a marca, esses convites soam como ruído.
+
+**Mudança a partir do M3:**
+
+CTAs precisam ser **ativos e específicos** quando o objetivo é gerar a ação:
+
+| Objetivo | Não usar mais | Usar |
+|---|---|---|
+| Gerar comentário | "Comenta abaixo" | "Qual desses é o seu caso? Responde aí com 1, 2 ou 3." |
+| Gerar save | "Salva pra revisar" | (só usar quando o post tem conteúdo concreto pra revisitar, ex: checklist no último slide) |
+| Gerar share | "Manda pra quem precisa" | "Esse post serve mais pra mãe, irmã ou amiga? Manda pra ela." |
+| Gerar clique | "Link na bio" | "Tô esperando você no link da bio, te respondo em 2h" |
+
+CTA específico converte. CTA genérico vira preenchimento.
+
+### Posts que provocam resposta em vez de só consumir
+O único post do M1 que gerou conversa real foi "Seu bem-estar começa aqui" (8 comentários), porque a foto humana com mensagem aspiracional convidava reconhecimento. Os outros, mesmo os bons em conversão de follow, geraram zero ou 2 comentários.
+
+**Para o M3:** pelo menos 1 post por semana com pergunta explícita no corpo do texto (não só no CTA), formato que provoca a audiência a responder algo factual da própria vida ("quanto tempo você não dorme uma noite inteira?" / "você já marcou consulta e desmarcou?").

@@ -153,3 +153,37 @@ Adicionar à estrutura existente uma seção dedicada ao **gap topo→meio do fu
 - Visualizações → Novos seguidores: X% (conversão para audiência)
 - Visitas ao perfil → Cliques no link: X% (intenção real de consulta)
 ```
+
+### Fonte de dados oficial: data/instagram/AAAA-MM/
+A partir do M2, todo relatório mensal parte dos CSVs em `data/instagram/AAAA-MM/`. Não trabalhar mais com screenshots quando os CSVs existirem (são granulares e versionados).
+
+Os arquivos esperados em cada pasta mensal:
+- `alcance.csv`, `visualizacoes.csv`, `interacoes.csv`, `visitas.csv`, `cliques-no-link.csv`, `seguidores.csv` (todos com schema `data,valor`)
+- `posts.csv` (lista de posts com schema `titulo,data,hora,tipo,views,alcance,curtidas,shares,follows,comments,saves`)
+
+Ver `data/instagram/README.md` para o fluxo completo de exportação do Business Suite e limitações conhecidas.
+
+### Métricas obrigatórias no relatório (a partir do M2)
+Quando os CSVs do Business Suite estão disponíveis, o relatório PRECISA incluir as métricas que faltaram no M1:
+
+**Por post individual:**
+- Salvamentos absolutos e taxa (saves / views)
+- Compartilhamentos absolutos e taxa
+- Comentários
+- Conversão view→follow (follows / views)
+
+**Agregado do mês:**
+- Total de salvamentos no mês (referência M1: apenas 2 saves em 9 posts)
+- Total de comentários no mês (referência M1: 14 comentários, 67% dos posts com zero)
+- Cliques no link da bio (referência M1: 0, possivelmente por tracking)
+- Cadência real (posts/semana, referência M1: 2,25)
+- % de posts com zero saves, zero comentários, zero follows
+
+### Disclaimer sobre tracking do link da bio
+Se aparecer 0 cliques no link da bio em qualquer mês, **antes de tratar como leitura editorial**, verificar com o Instagram Curator se o tracking está funcionando ou se a marca está usando link agregador externo (Linktree, Beacons). Reportar como "lacuna de tracking a confirmar" em vez de "zero conversão" enquanto a causa não for confirmada.
+
+### Padrão temporal a reportar mensalmente
+A partir do M2, incluir uma seção "Padrão temporal" no relatório:
+- Top 5 dias de visualização e o que aconteceu neles
+- Gaps maiores que 3 dias entre publicações
+- Curva de cauda: % do alcance que vem do próprio dia da publicação vs. dias seguintes (no M1, virtualmente todo alcance veio no dia, sem cauda)
