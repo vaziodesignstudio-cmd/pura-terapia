@@ -1,0 +1,21 @@
+Report created: 
+	5/1/2026	7:54:47 AM
+
+Project name: pura-terapia-gif-website.aep
+
+Source files collected to: 
+	C:\Users\lucas\OneDrive\Desktop\pura-terapia-gif-website folder
+
+Source files collected: None
+
+Collected comps:  
+	pura-terapia-gif-website
+	whatsapp-flow
+	
+Number of collected files:  0
+
+Size of collected files:  0 KB
+
+Rendering plug-ins:
+	Advanced 3D
+	

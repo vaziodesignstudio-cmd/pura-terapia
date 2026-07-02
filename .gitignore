@@ -1,0 +1,2 @@
+# Large source masters kept local (exceeds GitHub 100MB limit)
+*.tif

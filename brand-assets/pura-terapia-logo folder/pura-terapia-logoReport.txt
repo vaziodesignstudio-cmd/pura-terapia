@@ -1,0 +1,22 @@
+Report created: 
+	5/1/2026	7:53:19 AM
+
+Project name: pura-terapia-logo.aep
+
+Source files collected to: 
+	C:\Users\lucas\OneDrive\Desktop\pura-terapia-logo folder
+
+Source files collected: None
+
+Collected comps:  
+	primary-logo-icon.svg
+	Ellipse 17.svg
+	primary-logo-icon-loop-1400x600
+	
+Number of collected files:  0
+
+Size of collected files:  0 KB
+
+Rendering plug-ins:
+	Advanced 3D
+	
